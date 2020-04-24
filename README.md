@@ -7,7 +7,7 @@ THIS IS A PLUGIN TEMPLATE
 
 * Node v8.1+
 * Yarn
-* Zignis installed globally
+* @semo/cli installed globally
 
 ## Usage
 
