@@ -11,10 +11,10 @@ THIS IS A PLUGIN TEMPLATE
 
 ## Usage
 
-1. Clone or download this repo, (Or use `zignis new PLUGIN_NAME --select=plugin`)
+1. Clone or download this repo, (Or use `semo new PLUGIN_NAME --select`)
 2. Run `yarn install`.
 3. At root directory, run `yarn watch`.
-4. At another window and same directory, run `zignis hi`, an example command.
+4. At another window and same directory, run `semo hi`, an example command.
 5. Change the package name and version of package.json.
 6. Change that command or delete it, and write your own code.
 7. Change this readme file also.
