@@ -25,5 +25,8 @@
   },
   "dependencies": {
     "@semo/core": "^0.0.39"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
