@@ -3,9 +3,7 @@
   "version": "0.0.0",
   "main": "index.js",
   "license": "MIT",
-  "peerDependencies": {
-    "@semo/cli": "^0.0.12"
-  },
+  "peerDependencies": {},
   "devDependencies": {
     "@types/node": "^13.13.2",
     "@typescript-eslint/eslint-plugin": "^2.29.0",
@@ -24,5 +22,8 @@
     "clean": "rimraf lib",
     "postversion": "git push && git push --tags",
     "prepare": "npm run clean && npm run build"
+  },
+  "dependencies": {
+    "@semo/core": "^0.0.39"
   }
 }
