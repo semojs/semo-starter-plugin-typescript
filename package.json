@@ -1,7 +1,8 @@
 {
   "name": "semo-plugin-starter-typescript",
   "version": "0.0.0",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "license": "MIT",
   "peerDependencies": {},
   "devDependencies": {
