@@ -1,5 +1,2 @@
-import { Utils } from '@semo/core'
-
-export const handler = () => {
-  Utils.error('Plugin default handler placeholder triggered, means no default action defined.')  
-}
+// Semo plugin should exist this entry file, even no mehtod needs to be exported.
+export = {}
