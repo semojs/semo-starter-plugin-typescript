@@ -5,7 +5,7 @@ THIS IS A PLUGIN TEMPLATE
 ****
 ## Requirements
 
-* Node v8.1+
+* Node v10.0+
 * Yarn
 * @semo/cli installed globally
 
