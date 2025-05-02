@@ -5,7 +5,7 @@ import tseslint from "typescript-eslint";
 import prettierConfig from "eslint-config-prettier";
 export default tseslint.config(
   {
-    ignores: ["lib"],
+    ignores: ["lib", "pnpm-lock.yaml", "**/node_modules/**"],
   },
   eslint.configs.recommended,
   tseslint.configs.eslintRecommended,
@@ -14,5 +14,5 @@ export default tseslint.config(
     rules: {
       "no-unused-vars": "off",
     },
-  }
+  },
 );
