@@ -18,19 +18,38 @@
     "@eslint/js": "^9.25.1",
     "@types/node": "^22.15.3",
     "@types/yargs": "^17.0.33",
+    "@typescript-eslint/eslint-plugin": "^8.31.1",
+    "@typescript-eslint/parser": "^8.31.1",
+    "@vitest/coverage-v8": "^3.1.2",
+    "@vitest/eslint-plugin": "^1.1.44",
+    "@vitest/ui": "^3.1.2",
     "eslint": "^9.25.1",
     "eslint-config-prettier": "^10.1.2",
     "globals": "^16.0.0",
+    "husky": "^9.1.7",
+    "jiti": "^2.4.2",
+    "lint-staged": "^15.5.1",
+    "prettier": "^3.5.3",
     "rimraf": "^6.0.1",
     "typescript": "^5.8.3",
-    "typescript-eslint": "^8.31.1"
+    "typescript-eslint": "^8.31.1",
+    "vitest": "^3.1.2"
   },
   "scripts": {
     "dev": "tsc --build --watch",
     "build": "tsc --build",
     "clean": "rimraf lib *.tsbuildinfo",
+    "test": "vitest run",
+    "test:watch": "vitest ",
+    "test:ui": "vitest --ui",
+    "test:cov": "vitest run --coverage",
     "postversion": "git push && git push --tags",
-    "prepare": "npm run clean && npm run build"
+    "prepublish": "npm run clean && npm run build",
+    "prepare": "husky",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix",
+    "format": "prettier --write \"**/*.{ts,js}\"",
+    "format:check": "prettier --check \"**/*.{ts,js}\""
   },
   "dependencies": {
     "@semo/core": "^2.0.2"

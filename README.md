@@ -1,13 +1,23 @@
-YOUR_AWESOME_PLUGIN_NAME
-------------------------
+## YOUR_AWESOME_PLUGIN_NAME
 
 THIS IS A PLUGIN TEMPLATE
-****
+
+---
+
 ## Requirements
 
-* Node v22.0+
-* pnpm
-* @semo/cli installed globally
+- Node v22.0+
+- pnpm
+- @semo/cli installed globally
+
+## What is included
+
+- ESLint
+- Prettier
+- Husky
+- Lint-staged
+- Vitest
+- Github Actions
 
 ## Usage
 

@@ -3,21 +3,23 @@
     "target": "ES2022",
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
-    "declaration": true,
-    "skipLibCheck": true,
+
     "outDir": "./lib",
     "rootDir": "./src",
-    "strict": true,
-    "noImplicitAny": false,
-    "strictNullChecks": true,
-    "noImplicitThis": true,
-    "noUnusedLocals": true,
-    "noImplicitReturns": true,
-    "resolveJsonModule": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "composite": true
+    "strict": false,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "noImplicitAny": false,
+
+    "composite": true,
+    "baseUrl": "."
   },
-  "include": ["./src"],
-  "exclude": ["node_modules", "lib"]
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "lib", "**/*.config.ts", "*.config.ts"]
 }

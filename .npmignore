@@ -6,3 +6,10 @@ lib/**/*.map
 eslint.config.js
 .vscode/*
 .trae/*
+.husky/*
+.lintstagedrc
+.prettierrc
+.prettierignore
+eslint.config.ts
+tests/*
+coverage/*
