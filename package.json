@@ -52,7 +52,8 @@
     "format:check": "prettier --check \"**/*.{ts,js}\"",
     "deploy": "npm version patch",
     "deploy:minor": "npm version minor",
-    "deploy:major": "npm version major"
+    "deploy:major": "npm version major",
+    "eslint:inspect": "pnpm dlx @eslint/config-inspector@latest"
   },
   "dependencies": {
     "@semo/core": "^2.0.18"
